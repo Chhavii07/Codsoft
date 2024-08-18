@@ -1,0 +1,149 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+   
+}
+body{
+    background-color: rgb(61, 111, 160);
+}
+#container{
+       height: 350vh;
+       background-image: url(bgcimage.jpeg);
+       /* background-color: rgb(61, 111, 160); */
+       background-position: center;
+       background-size: cover;
+       background-repeat: no-repeat;
+}
+.navigation{
+    text-decoration: none;
+    color: aliceblue;
+}
+#header{
+    height: 10vh;
+    width: 100%;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: rgb(5, 57, 96);
+    align-items: center;
+    color: alicergb(197, 1, 1);
+    padding: 0 20px;
+   
+}
+#Name{
+    height: 400px;
+    width: 50%;
+    background-color:  rgb(135, 212, 243);
+    margin: 20px ;
+    padding: 10px;
+    float: left;
+    display: flex;
+    border: 2px solid aliceblue;
+}
+#Name:hover{
+    box-shadow: 10px 10px 20px black;
+    border-radius: 10%;
+}
+#profile{
+    height:50vh;
+    width: 40vh;
+    margin-right: 10px;
+}
+#p{
+    font-size: 3vh;
+}
+#about{
+    height: 400px;
+    width: 50%;
+    background-color: rgb(135, 212, 243);
+    margin: 20px ;
+    padding: 10px;
+    float: right;
+    display: flex;
+    align-items: center;
+}
+#about:hover{
+    box-shadow: 10px 10px 20px black;
+    transform: scale(1.1);
+}
+h2{
+    font-weight: bolder;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(3, 73, 179);
+}
+#education{
+    margin: 10px;
+    padding: 10px;
+    height: 80%;
+    width: 25%;
+    background-color: rgb(152, 219, 249);
+    border-radius: 10%;
+}
+#Grades{
+    margin: 10px;
+    padding: 10px;
+    height: 80%;
+    width: 25%;
+    background-color: rgb(152, 219, 249);
+    border-radius: 10%;
+}
+#Activity{
+    margin: 10px;
+    padding: 10px;
+    height: 80%;
+    width: 25%;
+    background-color: rgb(152, 219, 249);
+    border-radius: 10%;
+}
+#Internship{
+    margin: 10px;
+    padding: 10px;
+    height: 80%;
+    width: 25%;
+    background-color: rgb(152, 219, 249);
+    border-radius: 10%;
+}
+
+#skill{
+    height: 400px;
+    width: 50%;
+    background-color: rgb(135, 212, 243);
+    margin: 20px ;
+    padding: 40px;
+    float: left;
+}
+#skill:hover{
+    box-shadow: 10px 10px 20px black;
+    border-radius: 10%;
+
+}
+#projects{
+    height: 400px;
+    width: 50%;
+    background-color:rgb(135, 212, 243);
+    margin: 20px ;
+    padding: 40px;
+    float: right;
+}
+#projects:hover{
+    box-shadow: 10px 10px 20px black;
+    transform: scale(1.1);
+}
+#resume{
+    height: 400px;
+    width: 50%;
+    background-color: rgb(135, 212, 243);
+    margin: 20px ;
+    padding: 10px;
+    float: left;
+}
+#resume:hover{
+    box-shadow: 10px 10px 20px black;
+    border-radius: 10%;
+
+}
